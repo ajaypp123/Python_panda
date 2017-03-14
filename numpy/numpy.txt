@@ -1,0 +1,28 @@
+numpy provide spped and mathematical calculation on entire array than list
+1]pip3 install numpy.
+		import numpy as np
+		h = [1,2.0,'tt']
+		w = [1,2.0,'tt']
+		np_h = np.array(h)
+		np_w = np.array(w)
+		bmi = np_h/np_w 
+		bmi[1]
+		bmi < 1     ==> array(true,false,true)
+		np.array([1,2.0,'tt'])				//all convert into string
+	 >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>>	
+numpy 2D array:	a = np.array([[1,2,3,4,5],[2,3,4,4,33]])
+>>> a[1,1:4]
+aa  = array([3, 4, 4])
+ >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>>
+numpy array operation
+numpy.mean(aa)
+ >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>>
+ >>> dtype = [('name', 'S10'), ('height', float), ('age', int)]
+    >>> values = [('Arthur', 1.8, 41), ('Lancelot', 1.9, 38),
+    ...           ('Galahad', 1.7, 38)]
+	
+	 >>> np.sort(a, order='height') 
+ >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>>
+ 
+ 
+ 
